@@ -40,7 +40,6 @@ fun FoodDetailScreen(name: String, calories: String, imageRes: Int, navControlle
                 title = {
                     Text(
                         text = "Detail Makanan",
-                        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
                         color = Color.White
                     )
                 },
